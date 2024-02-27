@@ -1,0 +1,43 @@
+.closeBranchModal {
+
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 4px;
+  width: 508px;
+  padding: 24px 32px;
+  margin: 3rem auto;
+
+  p {
+
+    color: #DE4A0B;
+    font-size: 13px;
+
+  }
+
+  ul {
+
+    list-style: inside;
+
+  }
+
+  input {
+
+    margin-top: 8px;
+
+  }
+
+  .closeBranchModal__buttons {
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    .btnCloseBranchModal {
+
+      margin-right: 10px;
+
+    }
+
+  }
+
+}

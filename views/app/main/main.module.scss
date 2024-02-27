@@ -1,0 +1,391 @@
+.appDashboardPage {
+
+  .appDashboardPageHeader {
+
+    display: flex;
+    align-items: center;
+
+    > div {
+
+      margin-left: auto;
+      margin-right: 0;
+
+      .btnAppDashboardPageHeader {
+
+        margin-left: 8px;
+
+      }
+
+    }
+
+  }
+
+  .appDashboardCard {
+
+    background: #F1F5F6;
+    border-radius: 4px;
+    padding: 15px 20px;
+
+  }
+
+  .appDashboardLink {
+
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+
+  }
+
+  .clipRightLoader {
+
+    margin-right: 0;
+    margin-left: auto;
+
+  }
+  
+  .clipLoader {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .appDashboardPageCards__supervisor {
+
+    .appDashboardCard {
+
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      > div {
+
+        h3 {
+
+          font-size: 20px;
+          font-weight: 500;
+
+        }
+
+        a {
+
+          font-size: 13px;
+          font-weight: 500;
+
+        }
+
+      }
+
+      > label {
+
+        margin-left: auto;
+        margin-right: 0;
+        font-size: 36px;
+        font-weight: 500;
+
+      }
+
+    }
+
+  }
+
+  .appDashboardPageCards__admin {
+
+    .appDashboardCard {
+
+      width: 100%;
+      height: 100%;
+
+      h3 {
+
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+
+      }
+
+      label {
+
+        font-size: 11px;
+        font-weight: 700;
+        display: block;
+
+      }
+
+      span {
+
+        font-size: 20px;
+        font-weight: 500;
+        color: #142D53;
+        display: block;
+        margin-top: 7px;
+        margin-bottom: 9px;
+
+      }
+
+      ul {
+
+        list-style: none;
+        display: flex;
+
+        @media (max-width: 525px) {
+
+          flex-direction: column !important;
+
+        }
+
+        li {
+
+          width: 33.33%;
+          display: flex;
+          flex-direction: column;
+
+          @media (max-width: 525px) {
+
+            width: 100% !important;
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .appDashboardPageGraph {
+
+    margin-top: 2rem;
+    width: 100%;
+    border: 1px solid #C2D2D9;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+
+    .appDashboardPageGraph__canvas {
+
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .appDashboardPageGraph__header {
+
+      padding: 1rem;
+      border-bottom: 1px solid #C2D2D9;
+      text-align: center;
+      position: relative;
+
+      @media (max-width: 767px) {
+
+        div:last-child {
+
+          margin-top: 15px;
+
+        }
+
+      }
+
+      div {
+
+        display: flex;
+        justify-content: right;
+
+      }
+
+      .forceRefresh {
+
+        // position: absolute;
+        // top: 1rem;
+        // right: 1rem;
+        cursor: pointer;
+
+      }
+
+      .btnAppDashboardPageGraph {
+
+        border-radius: 0 !important;
+        border-left-width: 1px !important;
+        border-right-width: 1px !important;
+
+        &:first-child {
+
+          border-left-width: 2px !important;
+          border-right-width: 1px !important;
+          border-radius: 3px 0 0 3px !important;
+
+        }
+
+        &:last-child {
+
+          border-left-width: 1px !important;
+          border-right-width: 2px !important;
+          border-radius: 0 3px 3px 0 !important;
+
+        }
+
+      }
+
+    }
+
+    .appDashboardPageGraph__graphHeader {
+
+      padding: 1rem;
+
+      > div {
+
+        .appDashboardPageGraphApplicationsCount {
+
+          // display: flex;
+          // align-items: center;
+          margin-top: 10px;
+
+          h3 {
+
+            font-size: 20px;
+            margin-left: 0;
+            margin-right: auto;
+
+          }
+
+        }
+
+        .appDashboardPageGraphApplicationsFilter {
+
+          select {
+
+            width: 170px;
+            height: 40px;
+            font-size: 0.875rem;
+            border: 1px solid #C2D2D9;
+            border-radius: 4px;
+            color: #142d53;
+            float: right;
+
+            &.graphRoleFilter {
+
+              margin-left: 1rem;
+              margin-right: 0;
+
+            }
+
+            &.graphBranchFilter {
+
+              margin-left: 1rem;
+              margin-right: 0;
+
+            }
+
+            &.graphMemberFilter {
+
+              margin-left: 1rem;
+              margin-right: 0;
+
+            }
+
+            &.graphRangeFilter {
+
+              margin-left: 1rem;
+              margin-right: 0;
+
+            }
+
+          }
+
+        }
+
+        // &:last-child {
+
+        //   margin-top: 1.5rem;
+        //   display: flex;
+        //   align-items: center;
+        //   flex-wrap: wrap;
+
+        //   label {
+
+        //     font-size: 13px;
+        //     font-weight: 500;
+        //     margin-right: 1.5rem;
+
+        //   }
+
+        // }
+
+      }
+
+    }
+
+    > ul {
+
+      list-style: none;
+      margin-top: 4rem;
+      display: flex;
+      border-top: 1px solid #C2D2D9;
+      background-color: #F1F5F6;
+
+      li {
+
+        flex: 0 0 25%;
+        width: 25%;
+        border-right: 1px solid #C2D2D9;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+
+        &:last-child {
+
+          border-right: none;
+
+        }
+
+        > label {
+
+          font-size: 11px;
+          font-weight: 700;
+          color: #4F717F;
+
+        }
+
+        > span {
+
+          font-size: 20px;
+          font-weight: 500;
+          margin-top: 10px;
+          margin-bottom: 1rem;
+
+        }
+
+        > p {
+
+          font-size: 13px;
+          font-weight: 500;
+          color: #4F717F;
+
+        }
+
+        > a {
+
+          font-size: 13px;
+          font-weight: 500;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

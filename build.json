@@ -1,0 +1,88 @@
+[
+  {
+    "id": "cisco",
+    "replacements": {
+      "%FRONT%": "cisco.fortifid.com",
+      "%BACK%": "cisco.fortifid.com/public",
+      "%MODE%": "debug"
+    },
+    "misc": false,
+    "release": true
+  },
+  {
+    "id": "qa",
+    "replacements": {
+      "%FRONT%": "qa.fortifid.com",
+      "%BACK%": "qa.fortifid.com/public",
+      "%MODE%": "debug"
+    },
+    "misc": false,
+    "release": true
+  },
+  {
+    "id": "portal-uat",
+    "replacements": {
+      "%FRONT%": "portal-uat.fortifid.com",
+      "%BACK%": "portal-uat.fortifid.com/public",
+      "%MODE%": "debug"
+    },
+    "misc": false
+  },
+  {
+    "id": "demo",
+    "replacements": {
+      "%FRONT%": "demo.fortifid.com",
+      "%BACK%": "demo.fortifid.com/public",
+      "%MODE%": "debug"
+    },
+    "misc": false
+  },
+  {
+    "id": "vistabank",
+    "replacements": {
+      "%FRONT%": "vistabank.fortifid.com",
+      "%BACK%": "vistabank.fortifid.com/public",
+      "%MODE%": "*"
+    },
+    "misc": false,
+    "release": false
+  },
+  {
+    "id": "sandbox",
+    "replacements": {
+      "%FRONT%": "portal.sandbox.fortifid.com",
+      "%BACK%": "portalbackend.sandbox.fortifid.com",
+      "%MODE%": "*"
+    },
+    "misc": true,
+    "release": false
+  },
+  {
+    "id": "prod",
+    "replacements": {
+      "%FRONT%": "branchportal.prod.fortifid.com",
+      "%BACK%": "branchportalbackend.prod.fortifid.com",
+      "%MODE%": "*"
+    },
+    "misc": true,
+    "release": false
+  },
+  {
+    "id": "portal",
+    "replacements": {
+      "%FRONT%": "portal.fortifid.com",
+      "%BACK%": "portal.fortifid.com/public",
+      "%MODE%": "*"
+    },
+    "misc": false
+  },  
+  {
+    "id": "",
+    "replacements": {
+      "%FRONT%": "%FRONT%",
+      "%BACK%": "%BACK%",
+      "%MODE%": "debug"
+    },
+    "misc": false
+  }
+]

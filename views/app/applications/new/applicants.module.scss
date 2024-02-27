@@ -1,0 +1,114 @@
+.appApplicantsPage {
+
+  .appApplicantsPageHeader {
+
+    width: 100%;
+    background: #F6F6F6;
+    box-shadow: 0px 1px 0px #C2D2D9;
+    margin-top: -40px;
+
+    .cContainer {
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+
+    }
+
+  }
+
+  .appApplicantsPage__list {
+
+    margin-top: 2rem;
+    align-items: center;
+    border-top: 2px solid #CFD8DC;
+
+    ul {
+
+      list-style: none;
+
+      li {
+
+        border-bottom: 2px solid #CFD8DC;
+        padding: 1rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &:hover {
+
+          background-color: #F1F5F6;
+
+        }
+
+        * {
+
+          cursor: pointer;
+
+        }
+
+        article {
+
+          > div {
+
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+
+            b {
+
+              color: #142D53;
+              font-size: 16px;
+              margin-right: 1rem;
+
+            }
+
+            p {
+
+              font-size: 14px;
+              color: #142D53;
+
+            }
+
+          }
+
+          > p {
+
+            font-size: 11px;
+            color: #7398A8;
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .appNewApplicationPage__buttons {
+
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+
+    .btnAppNewApplicationPage:first-child {
+
+      margin-right: 10px;
+
+    }
+
+    .btnAppNewApplicationPage:last-child {
+
+      margin-right: 0;
+      margin-left: auto;
+
+    }
+
+  }
+
+}

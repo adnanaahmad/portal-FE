@@ -1,0 +1,47 @@
+.bulkApplyAccessGroupModal {
+
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 4px;
+  max-width: 508px;
+  padding: 24px 32px;
+  margin: 3rem auto;
+
+  label {
+
+    display: block;
+    margin-bottom: 8px;
+
+  }
+
+  .customFormControlSelect {
+
+    height: 40px;
+
+  }
+  
+  .bulkApplyAccessGroupModal__buttons {
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    @media (max-width: 525px) {
+
+      flex-direction: column;
+      align-items: flex-start;
+
+    }
+    .btnApplyAccessGroupModal {
+
+      margin-right: 10px;
+      @media (max-width: 525px) {
+
+        margin: 0 0 8px 0
+  
+      }
+
+    }
+
+  }
+
+}

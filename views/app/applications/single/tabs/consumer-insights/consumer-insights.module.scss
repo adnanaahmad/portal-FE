@@ -1,0 +1,206 @@
+.consumerInsightsSection {
+
+  .consumerInsightsSectionHeader {
+
+    display: flex;
+    align-items: center;
+
+    h3 {
+
+      font-size: 20px;
+      font-weight: 600;
+      // margin-right: 1rem;
+      width: 300px;
+
+    }
+    
+    > div {
+
+      display: flex;
+      align-items: center;
+
+      img {
+
+        margin-right: 8px;
+
+      }
+
+    }
+
+    .verificationResults {
+
+      justify-content: left !important;
+
+    }
+
+    div:last-child {
+
+      justify-content: right;
+
+      @media (max-width: 410px) {
+
+        justify-content: unset;
+
+      }
+
+    }
+
+    > label {
+
+      margin-left: auto;
+      margin-right: 0;
+
+    }
+
+  }
+
+  .verificationItemsGroup {
+
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .consumerInsightsSectionMFA {
+
+    .consumerInsightsSectionMFA__body {
+
+      .consumerInsightsSectionMFA__phone {
+
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+
+        > a {
+
+          cursor: pointer;
+          margin-left: 1rem;
+
+        }
+
+      }
+
+      .methodButtonsWrap {
+
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+    
+        > .btnMethodButtonsWrap {
+    
+          &:first-child {
+    
+            border-radius: 3px 0 0 3px !important;
+            border-right-width: 1px !important;
+    
+          }
+    
+          &:last-child {
+    
+            border-radius: 0 3px 3px 0 !important;
+            border-left-width: 1px !important;
+    
+          }
+    
+        }
+    
+      }
+
+      .verificationMethod {
+        width: 250px;
+
+        > label {
+          font-size: small;
+        }
+      }
+
+      .mfaVerifyingTag {
+
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+
+        > span {
+
+          margin-right: 8px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .consumerInsightsSectionDocVerify {
+
+    .consumerInsightsSectionDocVerify__body {
+
+      .consumerInsightsSectionDocVerify__phone {
+
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+
+        > a {
+
+          cursor: pointer;
+          margin-left: 1rem;
+
+        }
+
+      }
+
+      .methodButtonsWrap {
+
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+    
+        > .btnMethodButtonsWrap {
+    
+          &:first-child {
+    
+            border-radius: 3px 0 0 3px !important;
+            border-right-width: 1px !important;
+    
+          }
+    
+          &:last-child {
+    
+            border-radius: 0 3px 3px 0 !important;
+            border-left-width: 1px !important;
+    
+          }
+    
+        }
+    
+      }
+      
+      .verificationMethod {
+        width: 250px;
+
+        > label {
+          font-size: small;
+        }
+      }
+
+      .docVerifyingTag {
+
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        
+        > span {
+
+          margin-right: 8px;
+
+        }
+
+      }
+
+    }
+
+  }
+  
+}

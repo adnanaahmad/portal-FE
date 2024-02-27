@@ -1,0 +1,80 @@
+.appEditAccessGroupPage {
+
+  > .cContainer {
+
+    display: flex;
+    align-items: flex-start;
+
+    .appEditAccessGroupPage__content {
+
+      flex: 0 0 calc(100% - 354px);
+      // width: calc(100% - 354px);
+      padding-right: 40px;
+
+    }
+
+    .appEditAccessGroupPage__sidebar {
+
+      flex: 0 0 354px;
+      width: 354px;
+      background: #F6F6F6;
+      border-radius: 4px;
+      padding: 1rem;
+      margin-top: 10px;
+
+      ul {
+
+        margin-top: 1.5rem;
+        list-style: none;
+
+        li {
+
+          font-size: 13px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  form {
+
+    .cFormRow {
+
+      label {
+
+        display: block;
+        margin-bottom: 8px;
+
+      }
+
+    }
+
+  }
+
+  .appEditAccessGroupPage__buttons {
+
+    display: flex;
+    align-items: center;
+    @media (max-width: 525px) {
+
+      flex-direction: column;
+      align-items: flex-start;
+
+    }
+    .btnAppEditAccessGroupPage {
+      white-space: nowrap;
+      margin-right: 8px;
+      @media (max-width: 525px) {
+
+        margin: 0 0 8px 0
+  
+      }
+
+    }
+
+  }
+
+}

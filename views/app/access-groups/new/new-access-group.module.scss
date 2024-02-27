@@ -1,0 +1,31 @@
+.appNewAccessGroupPage {
+
+  form {
+
+    .cFormRow {
+
+      label {
+
+        display: block;
+        margin-bottom: 8px;
+
+      }
+
+    }
+
+  }
+
+  .appNewAccessGroupPage__buttons {
+
+    display: flex;
+    align-items: center;
+    
+    .btnAppNewAccessGrouPage {
+
+      margin-right: 8px;
+
+    }
+
+  }
+
+}

@@ -1,0 +1,68 @@
+.JSONEditorModal {
+
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 4px;
+  width: 808px;
+  padding: 24px 32px;
+  margin: 3rem auto;
+
+  p {
+
+    margin-bottom: 10px;
+    font-size: 13px;
+
+  }
+
+  .jsonEditorModal__close__buttons {
+
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+
+    .btnJSONEditorModalClose {
+
+      margin-left: auto;
+      font-size: 16px;
+      background-color: white;
+      margin-right: 0;
+
+    }
+
+  }
+
+  .JSONEditorModal__button {
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    .btnJSONEditorModal {
+
+      margin-right: 10px;
+
+    }
+
+  }
+
+  /* ========================================== */
+  /* Scroll Bar
+  */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #eee;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(100,100,100,0.4); 
+  }
+
+}

@@ -1,0 +1,41 @@
+.bulkRemoveAccessGroupModal {
+
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 4px;
+  max-width: 508px;
+  padding: 24px 32px;
+  margin: 3rem auto;
+
+  p {
+
+    color: #DE4A0B;
+    font-size: 13px;
+
+  }
+
+  .bulkRemoveAccessGroupModal__buttons {
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    @media (max-width: 525px) {
+
+      flex-direction: column;
+      align-items: flex-start;
+
+    }
+    .btnRemoveAccessGroupModal {
+
+      margin-right: 10px;
+      @media (max-width: 525px) {
+
+        margin: 0 0 8px 0
+  
+      }
+
+    }
+
+  }
+
+}

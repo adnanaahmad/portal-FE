@@ -1,0 +1,31 @@
+.deleteMemberModal {
+
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 4px;
+  max-width: 508px;
+  padding: 24px 32px;
+  margin: 3rem auto;
+
+  p {
+
+    color: #DE4A0B;
+    font-size: 13px;
+
+  }
+
+  .deleteMemberModal__buttons {
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    .btnDeleteMemberModal {
+
+      margin-right: 10px;
+
+    }
+
+  }
+
+}

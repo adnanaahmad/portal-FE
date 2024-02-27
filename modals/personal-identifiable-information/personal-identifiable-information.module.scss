@@ -1,0 +1,15 @@
+.personalIdentifiableInformationModal {
+    background: #FFFFFF;
+    border: 1px solid #CFD8DC;
+    border-radius: 4px;
+    max-width: 417px;
+    padding: 24px 32px;
+    margin: 3rem auto;
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+
+    .eyeIcon {
+        margin-left: 5px;
+    }
+}

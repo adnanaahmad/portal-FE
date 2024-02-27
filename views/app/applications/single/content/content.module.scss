@@ -1,0 +1,89 @@
+.appSingleApplicationPageContent {
+
+  flex: 0 0 calc(100% - 270px);
+  width: calc(100% - 270px);
+
+  > ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+
+    li {
+
+      padding: 1rem;
+      cursor: pointer;
+
+      > label {
+
+        color: #7398A8;
+
+      }
+
+      * {
+
+        cursor: pointer;
+
+      }
+
+      &.active {
+
+        box-shadow: inset 0px 6px 0px #0376BC, inset -1px 0px 0px #C2D2D9;
+        border-left: 1px solid #C2D2D9;
+        background: white;
+
+        > label {
+
+          color: #142D53;
+
+        }
+
+      }
+
+      &.ready {
+
+        > label {
+
+          color: #142D53;
+
+        }
+
+      }
+
+      &.disable {
+
+        background: lightgray;
+        cursor: not-allowed;
+
+        > label {
+
+          color: #142D53;
+
+        }
+
+      }
+      
+      &:first-child {
+
+        &.active {
+
+          border-left: none;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  > section {
+
+    margin-top: -1px;
+    border-top: 1px solid #C2D2D9;
+    padding: 2rem;
+
+  }
+  
+}

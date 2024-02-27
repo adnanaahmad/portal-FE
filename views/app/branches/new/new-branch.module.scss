@@ -1,0 +1,39 @@
+.appNewBranchPage {
+
+  .cFormRow {
+
+    margin-bottom: 1.5rem;
+    position: relative;
+
+    label {
+
+      display: block;
+      margin-bottom: 8px;
+
+    }
+
+    > span {
+
+      font-size: 11px;
+      color: #7398A8;
+      position: absolute;
+      bottom: -16px;
+      left: 0;
+
+    }
+
+  }
+
+  .appNewBranchPage__buttons {
+
+    margin-top: 30px;
+
+    .btnAppNewBranchPage {
+
+      margin-right: 8px;
+
+    }
+
+  }
+
+}

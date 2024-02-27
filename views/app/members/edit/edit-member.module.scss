@@ -1,0 +1,235 @@
+.appEditMemberPage {
+
+  .cContainer {
+
+    display: flex;
+    align-items: flex-start;
+
+  }
+
+  .appEditMemberPage__content {
+
+    flex: calc(100% - 354px);
+    width: calc(100% - 354px);
+    padding-right: 40px;
+
+    .appEditMemberPage__contentHeader {
+
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+
+      h2 {
+
+        font-size: 28px;
+
+      }
+
+      .memberStatusBox {
+
+        margin-left: 8px;
+
+      }
+
+    }
+
+    .appEditMemberPage__contentButtons {
+
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+
+      .btnAppEditMemberPageContentButtons {
+
+        margin-right: 0.5rem;
+
+      }
+
+    }
+
+    form {
+
+      .appPageHeader {
+
+        a {
+
+          cursor: pointer;
+
+        }
+
+      }
+
+      .cFormRow {
+
+        margin-bottom: 1rem;
+
+        label {
+
+          display: block;
+          margin-bottom: 8px;
+
+        }
+
+        .customFormControlSelect {
+
+          height: 40px;
+
+        }
+
+      }
+
+    }
+
+    .appEditMemberPage__buttons {
+
+      display: flex;
+      align-items: center;
+      @media (max-width: 768px) {
+
+        flex-direction: column;
+        align-items: flex-start;
+  
+      }
+
+      .btnAppEditMemberPageButtons {
+
+        margin-right: 8px;
+        @media (max-width: 768px) {
+
+          margin: 0 0 8px 0
+    
+        }
+
+        &.btnDangerAppEditMemberPage {
+
+          margin-right: 0;
+          margin-left: auto;
+          @media (max-width: 768px) {
+
+            margin-left: 0;
+      
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .appEditMemberPage__sidebar {
+
+    flex: 0 0 354px;
+    width: 354px;
+    background: #F6F6F6;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-top: 15px;
+
+    label {
+
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+
+    }
+
+    p {
+
+      font-size: 11px;
+      margin-bottom: 1rem;
+
+    }
+
+    > div {
+
+      a {
+
+        font-size: 13px !important;
+        font-weight: 500 !important;
+        cursor: pointer !important;
+
+        &.btnAppEditMemberPageSidebar {
+
+          margin-right: 1.5rem;
+
+        }
+
+      }
+
+    }
+
+    table {
+
+      width: 100%;
+
+      thead {
+
+        th {
+
+          font-size: 11px;
+          font-weight: 600;
+          padding-bottom: 8px;
+          padding-right: 10px;
+
+        }
+
+        tr {
+
+          th:last-child {
+
+            padding-right: 0;
+
+          }
+
+        }
+
+      }
+
+      tbody {
+
+        td {
+
+          vertical-align: top;
+          font-size: 11px;
+          padding-bottom: 1rem;
+          padding-right: 10px;
+
+          p {
+
+            font-size: 11px;
+            margin-bottom: 0;
+
+          }
+
+        }
+
+        tr {
+
+          td:last-child {
+
+            padding-right: 0;
+
+          }
+
+        }
+
+        tr:last-child {
+
+          td {
+
+            padding-bottom: 0;
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

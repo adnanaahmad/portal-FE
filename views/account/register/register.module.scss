@@ -1,0 +1,118 @@
+.registerPage {
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 15px;
+  align-items: center;
+  justify-content: center;
+
+  .whiteBox {
+
+    width: 688px;
+    max-width: 100%;
+
+    form {
+
+      display: block;
+
+      .registerPage__header {
+
+        display: flex;
+        align-items: center;
+
+        span {
+
+          width: 2px;
+          height: 32px;
+          background-color: #C4C4C4;
+          margin: 0 1rem;
+
+        }
+
+      }
+
+      .cFormRow {
+
+        margin-top: 1.5rem;
+        position: relative;
+
+        label {
+
+          font-size: 14px;
+          display: block;
+          margin-bottom: 5px;
+
+        }
+
+        small {
+
+          font-size: 11px;
+
+        }
+
+        > span {
+
+          font-size: 11px;
+          color: #7398A8;
+          position: absolute;
+          bottom: -16px;
+          left: 0;
+
+        }
+
+      }
+
+      .registerPage_button {
+
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+
+        p {
+
+          margin-right: auto;
+
+        }
+
+        .btnRegisterPage {
+
+          margin-left: auto;
+          width: 160px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  @media all and (max-width: 767px) {
+
+    .whiteBox {
+
+      width: 100% !important;
+
+      form {
+
+        .registerPage_button { 
+
+          display: block;
+          width: 100% !important;
+
+          .btnRegisterPage {
+
+            width: 100% !important;
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

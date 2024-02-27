@@ -1,0 +1,38 @@
+.appSingleApplicationPageSidebar {
+
+  flex: 0 0 270px;
+  width: 270px;
+  box-shadow: inset -1px 0px 0px #C2D2D9;
+  padding: 1rem 1.5rem;
+
+  div {
+
+    a {
+      width: 200px;
+      margin-top: 7x;
+    }
+
+    .getRecords{
+      margin-bottom: 20px;
+    }
+
+  }
+
+  .applicantsTabWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    justify-content: space-between;
+  }
+
+  .applicantsTab {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .infoIcon {
+    cursor: pointer; 
+    color: #0376BC;
+  }
+}

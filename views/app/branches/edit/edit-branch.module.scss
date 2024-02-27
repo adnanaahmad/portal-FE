@@ -1,0 +1,118 @@
+.appEditBranchPage {
+
+  .cContainer {
+
+    display: flex;
+    align-items: flex-start;
+
+    .appEditBranchPage__content {
+
+      flex: calc(100% - 354px);
+      width: calc(100% - 354px);
+      padding-right: 40px;
+
+      .cFormRow {
+
+        margin-bottom: 1.5rem;
+        position: relative;
+
+        label {
+
+          display: block;
+          margin-bottom: 8px;
+
+        }
+
+        > span {
+
+          font-size: 11px;
+          color: #7398A8;
+          position: absolute;
+          bottom: -16px;
+          left: 0;
+
+        }
+
+      }
+
+      .appEditBranchPage__buttons {
+
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+
+        button {
+
+          margin-right: 8px;
+
+        }
+
+        .btnAppEditBranchPage {
+
+          margin-left: auto;
+          margin-right: 0;
+
+          @media (max-width: 450px) {
+
+            margin-left: 10px !important;
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .appEditBranchPage__sidebar {
+
+      flex: 0 0 354px;
+      width: 354px;
+      background: #F6F6F6;
+      border-radius: 4px;
+      padding: 1rem;
+      margin-top: 15px;
+
+      p {
+
+        font-size: 13px;
+        font-weight: 600;
+        color: #324750;
+        margin-bottom: 20px;
+
+      }
+
+      > label {
+
+        font-size: 13px;
+        margin-bottom: 1rem;
+
+      }
+
+      a {
+
+        display: flex;
+        align-items: center;
+        color: #0366A3;
+        font-size: 13px;
+        font-weight: 500;
+
+        * {
+
+          cursor: pointer;
+
+        }
+
+        > svg {
+
+          margin-right: 8px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

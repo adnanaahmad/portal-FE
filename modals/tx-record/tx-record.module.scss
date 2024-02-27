@@ -1,0 +1,107 @@
+.txRecordModal {
+
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 4px;
+  max-width: 700px;
+  padding: 24px 32px;
+  margin: 3rem auto;
+  position: relative;
+
+  p {
+
+    font-size: 13px;
+
+  }
+  
+  .txRecordModal__close__buttons {
+
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+
+    .btnTxRecordModalClose {
+
+      margin-left: auto;
+      font-size: 16px;
+      background-color: white;
+      margin-right: 0;
+
+    }
+
+  }
+   
+  .jsonBox {
+
+    font-size: 13px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 150px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 0;
+    margin-top: 5px;
+    word-break: break-all;
+
+  }
+
+
+  .txTableCell {
+
+    font-size: 10px !important;
+    display: block;
+    padding-right: 10px;
+
+  }
+
+  .tableWrapper {
+
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-top: 1px solid #C2D2D9;
+    border-bottom: 1px solid #C2D2D9;
+    margin-top: 1rem;
+    
+    .rdt_Table {
+
+      .rdt_TableHead {
+
+        .rdt_TableHeadRow {
+
+          min-height: 30px !important;
+
+        }
+
+      }
+
+      .rdt_TableBody {
+
+        .rdt_TableRow {
+
+          min-height: 40px !important;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .txRecordModal__buttons {
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    .btnTxRecordModal {
+
+      margin-left: auto;
+      margin-right: 0;
+
+    }
+
+  }
+
+}

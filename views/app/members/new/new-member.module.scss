@@ -1,0 +1,71 @@
+.appNewMemberPage {
+
+  .appNewMemberPage__roles {
+
+    .btnAppNewMemberPageRoles {
+
+      color: #0376BC !important;
+      font-size: 14px;
+      font-weight: 600;
+      background: #D9F0FE;
+      margin-top: 8px;
+      margin-right: 7px;
+
+      &.active {
+
+        color: white !important;
+        background: #0376BC;
+
+      }
+
+    }
+
+  }
+
+  .cFormRow {
+
+    margin-top: 1rem;
+
+    > label {
+
+      display: block;
+      margin-bottom: 8px;
+
+    }
+
+    > div {
+
+      display: flex;
+      align-items: center;
+
+      > span {
+
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+      }
+
+      .customFormControl {
+
+        max-width: 350px;
+
+      }
+
+    }
+
+  }
+
+  .appNewMemberPage__buttons {
+
+    display: flex;
+    align-items: center;
+
+    .btnAppNewMemberPageButtons {
+
+      margin-right: 8px;
+
+    }
+
+  }
+
+}

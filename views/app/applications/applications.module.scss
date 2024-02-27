@@ -1,0 +1,135 @@
+.appApplicationsPage {
+
+  .appApplicationsPageHeader {
+
+    display: flex;
+    align-items: center;
+    //margin-top: -25px;
+    //background: #F6F6F6;
+    //box-shadow: 0px 1px 0px #C2D2D9;
+
+    .forceRefresh {
+
+      margin-top: 5px;
+      float: right;
+      cursor: pointer;
+
+    }
+
+    .btnAppApplicationsPageHeader {
+
+      margin-right: 0.8rem;
+
+    }
+    .btnAppPageStatus {
+
+      border-radius: 0 !important;
+      border-left-width: 1px !important;
+      border-right-width: 1px !important;
+      @media (max-width: 768px) {
+
+        margin-bottom: 8px;
+  
+      }
+
+      &:first-child {
+
+        border-left-width: 2px !important;
+        border-right-width: 1px !important;
+        border-radius: 3px 0 0 3px !important;
+
+      }
+
+      &:last-child {
+
+        border-left-width: 1px !important;
+        border-right-width: 2px !important;
+        border-radius: 0 3px 3px 0 !important;
+
+      }
+
+    }
+    select {
+
+      margin-right: 0.8rem;
+      width: 200px;
+      height: 40px;
+      border: 1px solid #C2D2D9;
+      border-radius: 3px;
+      font-weight: 500;
+      font-size: 14px;
+      color: #324750;
+      padding: 5px 16px;
+
+    }
+
+    .rangeFilter {
+      height: 45px;
+    }
+
+    div {
+
+      // width: 300px;
+      // height: 40px;
+      position: relative;
+      
+      > svg {
+
+        position: absolute;
+        top: 50%;
+        left: 7px;
+        transform: translateY(-50%);
+
+      }
+
+      > div {
+
+        width: 250px;
+        margin-right: 10px;
+        float: right;
+
+        input {
+
+          display: block;
+          width: 100%;
+          height: 100%;
+          font-size: 14px;
+          border: 1px solid #C2D2D9;
+          border-radius: 3px;
+          padding: 11px 16px 11px 32px;
+
+        }
+
+      }
+
+    }
+
+    div:last-child {
+
+      display: flex;
+      justify-content: right;
+
+      @media (max-width: 767px) {
+
+        justify-content: left !important;
+
+      }
+
+    }
+
+  }
+
+  .cContainer {
+
+    width: 1200px;
+
+  }
+
+  .co {
+
+    margin-left: 0;
+    background-color: aquamarine;
+
+  }
+
+}

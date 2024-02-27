@@ -1,0 +1,443 @@
+.appNewApplicationPage {
+
+  .appNewApplicationPageHeader {
+
+    display: flex;
+    align-items: center;
+
+    h2 {
+
+      font-size: 28px;
+      margin: 0.7rem 1rem 0 0;
+
+    }
+
+    div:first-child {
+
+      display: flex;
+      float: left;
+
+    }
+
+    div:last-child {
+
+      float: right;
+
+    }
+
+    .appNewApplicationPageHeader__buttons {
+
+      margin-left: auto;
+      margin-right: 0;
+      display: flex;
+      align-items: center;
+
+      .btnAppNewApplicationPageHeader {
+
+        margin-left: 10px;
+
+      }
+
+    }
+
+  }
+
+  form {
+
+    display: block;
+    width: 100%;
+
+    .cRow {
+
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 1.5rem;
+
+      .cRowLabel {
+
+        width: 220px;
+        flex: 0 0 220px;
+        padding-right: 20px;
+
+        label {
+
+          font-size: 14px;
+          font-weight: 500;
+          display: block;
+          text-align: right;
+
+          span {
+
+            display: block;
+            font-size: 11px;
+            font-weight: 400;
+
+          }
+
+        }
+
+      }
+
+      .cRowContent {
+
+        width: calc(100% - 220px);
+        flex: 0 0 calc(100% - 220px);
+
+        // .c-emp-status-wrap {
+
+        //   display: flex;
+        //   align-items: center;
+
+        //   .btn:first-child {
+
+        //     border-radius: 4px 0 0 4px !important;
+        //     border-right-width: 1px !important;
+
+        //   }
+
+        //   .btn:last-child {
+
+        //     border-radius: 0 4px 4px 0 !important;
+        //     border-left-width: 1px !important;
+
+        //   }
+
+        // }
+
+        .cGreyWrap {
+
+          width: 417px;
+          padding: 14px 1rem;
+          margin-bottom: 1.5rem;
+          background: #F6F6F6;
+          border: 1px solid #CFD8DC;
+          border-radius: 4px;
+
+          label {
+
+            display: block;
+            font-size: 14px;
+            margin-bottom: 8px;
+
+          }
+
+          > div {
+
+            display: flex;
+            align-items: center;
+
+            label {
+
+              margin: 0;
+              margin-right: 7px;
+
+            }
+
+            input {
+
+              width: 238px !important;
+
+            }
+
+            input[type="checkbox"] {
+              width: auto !important;
+            }
+
+          }
+
+          .cGreyWrapLink {
+
+            margin-left: 0.25rem !important;
+
+          }
+
+        }
+
+        .cInlineButtons {
+
+          display: flex;
+          align-items: center;
+
+          .btnCInlineButtons {
+
+            margin-right: 10px;
+
+            &:last-child {
+
+              margin-right: 0;
+
+            }
+
+          }
+
+          .cInlineButtonsLink {
+
+            width: 90px;
+
+          }
+
+        }
+
+        .cIncomeWrap {
+
+          display: flex;
+          align-items: center;
+
+          input {
+
+            width: 152px !important;
+            margin-left: 7px;
+            margin-right: 11px;
+
+          }
+
+          label {
+
+            margin-bottom: 0 !important;
+
+          }
+
+        }
+
+        .cLengthWrap {
+
+          display: flex;
+          align-items: center;
+
+          input {
+
+            width: 72px !important;
+            margin-right: 9px;
+
+          }
+
+          label {
+
+            margin-bottom: 0 !important;
+
+          }
+
+        }
+
+        .cAppIdWrap {
+
+          display: flex;
+          align-items: center;
+          
+          input {
+
+            flex: 1;
+            margin-right: 10px;
+
+          }
+
+          > svg {
+
+            cursor: pointer;
+
+          }
+
+        }
+
+        .cRequestAmountWrap {
+
+          display: flex;
+          align-items: center;
+
+          > label {
+
+            font-size: 14px;
+            margin-right: 8px;
+            margin-bottom: 0;
+
+          }
+
+        }
+
+        .cDataRow {
+
+          margin-bottom: 10px;
+          display: flex;
+          align-items: flex-start;
+
+          label, span {
+
+            display: block;
+            font-size: 14px;
+
+          }
+
+          label {
+
+            width: 270px;
+            margin-right: 2rem;
+
+          }
+
+          .cDataRowLink {
+
+            margin-left: 0.25rem !important;
+
+          }
+
+        }
+
+        .cFormRow {
+
+          margin-bottom: 1.5rem;
+          position: relative;
+
+          label {
+
+            display: block;
+            font-size: 14px;
+            margin-bottom: 8px;
+
+          }
+
+          > span {
+
+            font-size: 11px;
+            color: #7398A8;
+            position: absolute;
+            bottom: -16px;
+            left: 0;
+
+          }
+
+          > label {
+
+            position: relative;
+
+            span {
+
+              font-size: 11px;
+              margin-bottom: 0;
+              color: #7398A8;
+              position: absolute;
+              top: 50%;
+              right: 0;
+              transform: translateY(-50%);
+
+            }
+
+          }
+
+          .cFormRowLink {
+
+            margin-left: 0.25rem !important;
+
+          }
+
+        }
+
+        .cFormRequestAmountSpan {
+
+          margin-bottom: 1.5rem;
+          position: relative;
+
+          span {
+
+            font-size: 11px;
+            color: #7398A8;
+            position: absolute;
+            bottom: -16px;
+            padding-left: 18px;
+
+          }
+
+        }
+
+        .cFormRowRequestAmount {
+
+          margin-bottom: 1.5rem;
+          position: relative;
+
+          label {
+
+            display: block;
+            font-size: 14px;
+            margin-bottom: 8px;
+
+          }
+
+          > span {
+
+            font-size: 11px;
+            color: #7398A8;
+            position: absolute;
+            bottom: -16px;
+            right: 0;
+
+          }
+
+          > label {
+
+            position: relative;
+
+            span {
+
+              font-size: 11px;
+              margin-bottom: 0;
+              color: #7398A8;
+              position: absolute;
+              top: 50%;
+              right: 0;
+              transform: translateY(-50%);
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .appNewApplicationPage__buttons {
+
+    display: flex;
+    align-items: center;
+
+    .btnAppNewApplicationPage:first-child {
+
+      margin-right: 10px;
+
+    }
+
+    .btnAppNewApplicationPage:last-child {
+
+      margin-right: 0;
+      margin-left: auto;
+
+    }
+
+  }
+
+  .inputError {
+    border: 1px solid red !important;
+  }
+
+  .errorMessage {
+      font-size: 11px;
+      color: #ff0000;
+      position: absolute;
+      bottom: -18px;
+  }
+  .errorMessageWrap {
+    font-size: 11px;
+    color: #ff0000;
+    position: relative;
+    margin-top: 2px;
+  }
+  .pl18 {
+      padding-left: 18px;
+  }
+  .pl7 {
+    padding-left: 7px;
+  }
+
+}

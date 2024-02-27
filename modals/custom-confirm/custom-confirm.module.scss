@@ -1,0 +1,30 @@
+.customConfirmModal {
+
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 4px;
+  max-width: 508px;
+  padding: 24px 32px;
+  margin: 3rem auto;
+
+  p {
+
+    font-size: 13px;
+
+  }
+
+  .customConfirmModal__buttons {
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    .btnCustomConfirmModal {
+
+      margin-right: 10px;
+
+    }
+
+  }
+
+}

@@ -1,0 +1,83 @@
+.appProfilePage {
+
+  h2 {
+
+    font-size: 28px;
+
+  }
+
+  .cFormRow {
+
+    margin-bottom: 20px;
+
+    label {
+
+      display: block;
+      margin-bottom: 5px;
+
+    }
+
+    span {
+
+      display: block;
+      color: black;
+      height: 40px;
+
+    }
+
+    small {
+
+      font-size: 11px;
+      line-height: 1.4 !important;
+      display: block;
+      margin-top: 8px;
+
+    }
+
+  }
+
+  .appProfilePage__buttons {
+
+    display: flex;
+    align-items: center;
+
+    .btnAppProfilePage {
+
+      margin-right: 8px;
+
+    }
+
+  }
+
+  .twoFATitle {
+
+    display: flex;
+    align-items: center;
+
+    .twoFAStatusOn {
+
+      font-size: 14px;
+      font-weight: 600;
+      color: #ffffff;
+      background: #42C27D;
+      border-radius: 4px;
+      padding: 1px 3px;
+      margin-left: 8px;
+
+    }
+
+    .twoFAStatusOff {
+
+      font-size: 14px;
+      font-weight: 600;
+      color: #7398A8;
+      border: 1px solid #7398A8;
+      border-radius: 4px;
+      padding: 1px 3px;
+      margin-left: 8px;
+
+    }
+
+  }
+
+}
